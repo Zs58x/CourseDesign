@@ -1,0 +1,21 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#train: E:\courseDesign\yolov5-1217\fire\images\train
+#val: E:\courseDesign\yolov5-1217\fire\images\val
+## Classes
+#nc: 2
+#names:
+#  0: fire
+#  1: smoke
+
+# 需要将下面两个绝对路径替换为您的本地路径
+train: E:\courseDesign\labelimg\fire1226\train\images
+val: E:\courseDesign\labelimg\fire1226\valid\images
+
+
+# 您自定义数据集类别的数量
+nc: 2
+
+# 您自定义数据集的类别，注意这里的内容及顺序需要与xml_to_yolo.py代码中classes列表内容相同
+names:
+  0: fire
+  1: smoke
